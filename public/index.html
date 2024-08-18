@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todoリスト</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #taskList {
+            margin-top: 20px;
+        }
+        .task {
+            display: flex;
+            justify-content: space-between;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Todoリスト</h1>
+    <input type="text" id="taskInput" placeholder="新しいタスクを追加">
+    <button id="addTaskButton">追加</button>
+
+    <div id="taskList"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
